@@ -9,11 +9,9 @@
 	position: relative;
 }
 
-ul{
-	list-style-type: none;
-}
 
-ul .test {
+
+ul.test {
 	list-style-type: none;
 
 }
