@@ -12,12 +12,11 @@
 
 
 ul.test {
-	list-style-type: none;
 	list-style: none;
 
 }
 
-.navbar li {
-	float: left;
+.navbar > li {
+	float: right;
 }
 
