@@ -11,13 +11,13 @@
 
 
 
-ul.test {
+ul.navbar {
 	list-style: none;
 	float: right;
 
 }
 
-ul.test > li {
+ul.navbar > li {
 	float: left;
 }
 
