@@ -10,7 +10,11 @@
 }
 
 .navbar {
+	
+	list-style-type: none;
+}
+
+.navbar li {
 	float: left;
-	list-style: none;
 }
 
