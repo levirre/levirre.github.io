@@ -1,6 +1,15 @@
 
 
+.name{
+	position: relative;
+}
+
 .navcontainer {
 	float: right;
+	position: relative;
+}
+
+.navbar li {
+	float: left;
 }
 
