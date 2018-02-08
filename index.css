@@ -15,9 +15,11 @@
 	list-style: none;
 	float: right;
 
+
 }
 
 ul.navbar > li {
 	float: left;
+	margin: 1em;
 }
 
