@@ -5,11 +5,12 @@
 }
 
 .navcontainer {
-	float: right;
+	
 	position: relative;
 }
 
 .navbar {
 	float: left;
+	list-style: none;
 }
 
