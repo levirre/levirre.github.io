@@ -16,7 +16,7 @@ ul.test {
 
 }
 
-.test > li {
+ul.test > li {
 	float: right;
 }
 
