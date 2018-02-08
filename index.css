@@ -13,10 +13,11 @@
 
 ul.test {
 	list-style: none;
+	float: right;
 
 }
 
 ul.test > li {
-	float: right;
+	float: left;
 }
 
