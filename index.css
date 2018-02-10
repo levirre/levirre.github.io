@@ -1,25 +1,151 @@
+html, body, .container-fluid, .container {
+  height: 90vh; /*Fixes the height to 100% of the viewport*/
 
-
-.name{
-	position: relative;
 }
 
-.navcontainer {
+/* DARKEN IMAGE BACKGROUND */
+.banner{
+	height: 85%;
+	width: 100%;
+	background-image: url("./images/banner-autumn.jpg");
+	z-index: -2;
+	position: absolute;
+}
+
+.banner-tint{
+	background-color: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 85%;
+	position: absolute;
+	z-index: -1;
 	
-	position: relative;
+}
+
+@media(max-width: 1024px){
+	.banner, .banner-tint{
+		height: 100%;
+		width: 100%;
+		margin: 0;
+	}
+
+	.header{
+		margin: 0;
+	}
+	.container{
+		margin-bottom: 1em;
+	}
+	/*
+	.waffle{
+		visibility: hidden;
+	}*/
 }
 
 
 
-.navbar {
-	list-style: none;
+/* SET FULL WIDTH FOR CONTAINER */
+
+
+.header{
+	padding-top: 3em;
+	color: #FFF;
+
+	overflow: hidden;
+	clear: both;
+}
+
+.logo{
+	padding-left: 1em;
+	
+}
+.logo-adjust{
+	bottom: 7px;
+	padding: 0;
+}
+
+.waffle{
 	float: right;
-
+	width: 100%;
+	display: inline-flex;
 
 }
 
-ul.navbar > li {
-	float: left;
-	margin: 1em;
+.waffle p {
+	padding-left: 3em;
+	margin-left: 3em;
 }
 
+/* INTRODUCTION & PROJECT NAME */
+.center{
+	
+	color: #FFF;
+	margin: 10%;
+	text-align: center;
+	position: relative;
+	vertical-align: center;
+}
+
+.btn_view-work,.btn, .btn-primary{
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	font-style: italic;
+	 -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+   
+    background-color: red;
+}
+
+.greeting{
+	font-style: italic;
+}
+
+/* PROJECT OVERVIEWS*/
+
+
+
+
+.header_below{
+	color: #000;
+	text-align: center;
+}
+
+.lower{
+	margin-top: 3em;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.overviews{
+
+}
+
+.project{
+	
+	width: 30%;
+	display: inline-flex;
+	 margin: 0 auto; /* Added */
+	 border: 0;
+
+        
+
+}
+
+
+.red{
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+	
+}
+
+.test{
+	background-color: red;
+	margin-top: 1em;
+
+}
