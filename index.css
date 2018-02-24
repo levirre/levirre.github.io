@@ -4,11 +4,18 @@ src: url("./css/fonts/adobe_garamond_pro_regular.ttf");
 
 
 }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
 html body .container{
-	font-family: Adobe Garamond, Garamond,Georgia, serif;
-	color: #4a4a4a;
+color: #4a4a4a;
   font-size: 1em;
+  width: 	100vw;
+  height: 	100vh;
+}
+
+.row{
+	margin: 	0;
+	padding: 	0;
 }
 
 a{
@@ -25,7 +32,13 @@ a:hover{
 }
 ._navbar{
 	cursor: pointer;
-	display: inline-block;
+	float: 	left;	
+	
+}
+
+.logo{
+	font-weight: 300;
+
 }
 
 ._navbar p:hover, .works_list li:hover{
@@ -41,6 +54,10 @@ a:hover{
 	display: none;
 }
 
+.works_list li{
+	font-size: .9em;
+}
+
 .dropdown_portfolio{
 	cursor: pointer;
 }
@@ -49,6 +66,20 @@ a:hover{
 	color: #d8533b;
 }
 
+.center{
+	margin-left: 	15%;
+	position: 	absolute;	
+	margin-right: 	30vw;
+
+
+}
+
+.banner{
+	margin-bottom: 	4em;
+	height:400px;
+	width: 	900px;
+
+}
 
 
 

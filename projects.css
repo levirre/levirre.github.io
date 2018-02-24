@@ -1,91 +1,75 @@
 @font-face {
 font-family: "Adobe Garamond";
 src: url("./css/fonts/adobe_garamond_pro_regular.ttf");
-
-
 }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
-html, body, .container-fluid, .container {
-  height: 100vh; /*Fixes the height to 100% of the viewport*/
-  font-family: Adobe Garamond, Garamond,Georgia, serif;
-  color: #4a4a4a;
-  font-size: 1rem;
-  box-sizing: border-box;
-  
-
+@font-face{
+	font-family: "simplifica";
+	src: url("./css/fonts/simplifica.ttf");
 }
 
 
-
-/* DARKEN IMAGE BACKGROUND */
-.banner{
-	height: 85%;
-	width: 100%;
-	background-image: url("./images/banner-autumn.jpg");
-	z-index: -2;
-	position: absolute;
+html body .container{
+color: #4a4a4a;
+  font-size: 1em;
+  width: 	100vw;
+  height: 	100vh;
+  margin-left: 4em;
+  margin-right: 0;
 }
 
-.banner-tint{
-	background-color: rgba(0,0,0,0.6);
-	width: 100%;
-	height: 85%;
-	position: absolute;
-	z-index: -1;
+.row{
+	margin: 	0;
+	padding: 	0;
+}
+
+a{
+	color: #4a4a4a;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+._navbar{
+	cursor: pointer;
+	float: 	left;	
 	
 }
-
-.header{
-	margin-top: 4em;
-}
-
-@media(min-width: 900px){
-	.banner, .banner-tint{
-		height: 100%;
-		width: 100%;
-		margin: 0;
-	}
-
-	
-	.container{
-		margin-bottom: 1em;
-	}
-	
-	.project_details p {
-		
-	}
-
-}
-
-
-
-/* SET FULL WIDTH FOR CONTAINER */
-
-
-
 
 .logo{
-	
-	color: #4a4a4a;
-	
-}
-.logo-adjust{
-	bottom: 7px;
-	padding: 0;
-}
-
-.waffle{
-	float: right;
-	width: 100%;
-	display: inline-flex;
-	
+	font-weight: 300;
 
 }
 
-.waffle p {
-	
-	margin-left: 3em;
+._navbar p:hover, .works_list li:hover{
+	color: #d8533b;
 }
+
+.works_list{
+	list-style-type: none;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	cursor: pointer;
+	user-select: none;
+
+}
+
+.works_list li{
+	font-size: .9em;
+}
+
+.dropdown_portfolio{
+	cursor: pointer;
+}
+
+.active{
+	color: #d8533b;
+}
+
+
 
 /* INTRODUCTION & PROJECT NAME */
 
@@ -119,10 +103,14 @@ html, body, .container-fluid, .container {
 	text-align: center;
 }
 
-
+.center{
+	margin-left: 12em;
+}
 
 .overviews{
 	margin-top: 4em;
+	width: 70vw;
+	
 	
 }
 
@@ -132,16 +120,13 @@ html, body, .container-fluid, .container {
 }
 
 .project_headers{
+	font-family: simplifica;
 	margin-bottom: 1em;
+		font-size: 2rem;
+	font-weight: 400;
 }
 
 
-.project_details{
-	margin-left: 10em;
-	margin-right: 10em;
-	
-
-}
 
 .project_details p{
 	
@@ -155,6 +140,7 @@ html, body, .container-fluid, .container {
 .project_img{
 	max-width: 100%;
 	max-height: 100%;
+	margin-bottom: 1em;
 }
 
 

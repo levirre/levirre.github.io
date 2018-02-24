@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="/bootstrap-3.3.7-dist/css/bootstrap.css">
 	-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="../index.css"> 
+	<link rel="stylesheet" type="text/css" href="../projects.css"> 
 
 	<title>Imouto</title>
 </head>
@@ -17,21 +17,31 @@
 	<div class="banner-tint"></div>
   <div class="banner">test</div>
 	-->
-  <div class="container wrap">
+  <div class="container">
 		
 		
-		<div class="row header">
-    		<div class="col-md-7 logo-adjust">
-      			<h2 class="logo">ALLAN ASIS</h2>
-    		</div>
-    		<div class="col-sm-1 waffle">
-    			<p>HOME</p>
-    			<p>PROJECTS</p>
-    			<p>CONTACT</p>
-
-    		</div>
-    		
+		<div style="position: absolute;  float: left"><!-- Left Nav Bar -->
+    <h2 class="logo" style="margin-bottom: 1.5em">Allan Asis</h2>
+    <div class="_navbar">
+      <p class="active">Home</p>
+      <p class="dropdown_portfolio">Portfolio</p>
+      <div>
+        <ul class="works_list">
+          <a href="musicapp.html" ><li>Music Shuffle Gestures</li></a>
+          <a href="discourse.html"><li>Discourse</li></a>
+          <li>UAA Architecture Redesign</li>
+          <a href="solo.html" class="active"><li>Solo</li></a>
+          <li>FFXIV Ethnography</li>
+        </ul>
+      </div>
+      <p>About</p>
+     <a href="https://goo.gl/w6Sx5c" target="_blank"><p>Resume</p></a> 
     </div>
+    </div> <!-- Left Nav Bar -->
+
+   <div class="center">
+     
+   
 
     <div class="row justify-content-center overviews">
     <div class="col-6 project_info">
@@ -51,7 +61,7 @@
       <p>Pen and Paper, Balsamiq
     </div>
     <div class="col-4 project_overview">
-      <h1 class="project_name">Solo </h1>
+      <h1 class="project_headers">Solo </h1>
       <img class="project_img" src="../images/banner-autumn.jpg">
       <h3 class="project_headers"> Overview:</h3>
       <p>of letters, as opposed to using 'Content here, content here', making it look like readable English. 
@@ -80,6 +90,10 @@
       </p>
 
   </div>
+
+</div><!--center -->
+</div><!--Container-->
+
     
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
