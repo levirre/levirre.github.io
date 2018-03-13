@@ -64,9 +64,20 @@
       <h1 class="project_headers">Solo </h1>
       <img class="project_img" src="../images/banner-autumn.jpg">
       <h3 class="project_headers"> Overview:</h3>
-      <p>By working on soloSD, we hope to provide the more socially withdrawn side of San Diego with a helpful tool that encourages getting out of the house and enjoying life without having to worry about the busy world around you.</p>
+      <p>Our users will primarily be the more introverted side of San Diego, yet we recognize that time alone is valuable and applicable to just about anyone. soloSD’s users will be people who need a way to get out of the house, value their individuality and personal time by themselves, and are motivated to discover and explore their new favorite place.</p>
     </div>
   </div>
+
+  <!-- Template for Project Details and headers
+  <hr class="project_ruler">
+
+  <div class="project_details">
+    <h3 class="project_headers"> Hedeader</h3>
+
+  </div>
+  <hr class="project_ruler">
+
+  =============End Template--> 
 
   <hr class="project_ruler">
 
@@ -83,13 +94,53 @@
   <hr class="project_ruler">
 
   <div class="project_details">
-    <h3 class="project_headers"> Wireframe</h3>
+    <h3 class="project_headers"> Architecture</h3>
       <img src="../images/design.png">
-      <p>of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+      <p>The main page consists of two views,one for the interactive map,on which users can select the type of places they want to explore and the nearby police,clinic info will be displayed alongside. Also users can explore the nearby shops to see how possible the place will be by selecting the checkbox.The other view is the Saved Place view.When user save the places they like,they can click the button to jump to this view and make comparison of data .
+
 
       </p>
 
   </div>
+
+   <hr class="project_ruler">
+
+  <div class="project_details">
+    <h3 class="project_headers"> Design Decisions</h3>
+    <h4>Why Mapbox?</h4>
+    <ul>
+      <li>Allows us to customize our map for simplicity</li>
+      <li>Can create Clusters preventing information overload when zoomed out to scale.</li>
+       <h1>[pic of clusters] </h1>
+      <li> Can set map boundaries preventing inappropriate zooming. i.e. the middle of the ocean</li>
+    </ul>
+
+  </div>
+  
+   <hr class="project_ruler">
+
+  <div class="project_details">
+    <h3 class="project_headers"> UX Testing and Evaluation</h3>
+    <h4> Data placement</h4>
+    <p> We opt for aleft handed bar as testers generally used their left hands to scroll while their right hand to tap the screen. </p>
+    <h1>[ pic of sidebar]</h1>
+    <p> Geogically there are less important places further east of the coastline so markers would rarely appear behind the data box at our set zoom level.</p>
+   
+    <h4>Location Saving</h4>
+    <p> allow for memory offloading in order for users to focus where they would like to go rather than having them just remembering what they selected.</p>
+    <h1> [pic of saving multiple locations]</h1>
+    <h4>Designing for safety </h4>
+    <p>We originally thought users would be sufficient with knowing information about the nearest facilities of aid such as hospitals and police stations leading us to develop only showing the average distances of all facilities. Users wished for contact information more rather than distance, so that if something were to happen they could be put in touch directly rather than still going through the general emergency lines first. Thus, we designed the sidebar to display such information like so: </p>
+
+    <h4>User control principles are a large proponent in our app design in order to enable users freedom as to what they want to display. </h4>
+
+    <h4></h4>
+
+
+  </div>
+  <hr class="project_ruler">
+
+
 
 </div><!--center -->
 </div><!--Container-->
