@@ -35,8 +35,13 @@ a:hover{
 
 ._navbar{
 	cursor: pointer;
-	float: 	left;	
+	float: 	left;
+
 	
+}
+
+.first-col{
+margin-top: 4em;
 }
 
 .logo{
@@ -116,7 +121,7 @@ a:hover{
 
 .project_overview{
 	
-	margin-left: 2em;
+	padding-left: 2em;
 }
 
 h1,h2,h3,h4{
@@ -141,7 +146,7 @@ h1,h2,h3,h4{
 	margin: 4em;
 }
 
-.project_img{
+.project_imgoverview{
 	max-width: 100%;
 	max-height: 100%;
 	margin-bottom: 1em;
@@ -184,6 +189,13 @@ h1,h2,h3,h4{
 
 }
 
+.project_img{
+	width: 300px;
+	height: 300px;
+	margin-left: 	1em;
+
+}
+
 
 .push{
 	width: 300px;
@@ -197,3 +209,4 @@ h1,h2,h3,h4{
 .carousel-item img{
 	height: 500px;
 }
+

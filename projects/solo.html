@@ -18,39 +18,38 @@
   <div class="banner">test</div>
 	-->
   <div class="container">
-		
-		
-		<div style="position: absolute;  float: left"><!-- Left Nav Bar -->
+  
+  <div class="row" ><!-- 2 Column container -->
+    <div class="col-md-3 first-col"> <!-- 1st Column Navbar -->
+    <div><!-- Left Nav Bar -->
     <h2 class="logo" style="margin-bottom: 1.5em">Allan Asis</h2>
     <div class="_navbar">
       <p class="active">Home</p>
       <p class="dropdown_portfolio">Portfolio</p>
       <div>
         <ul class="works_list">
+          <a href="lifeisneet"><li>Life is NEET</li></a>
           <a href="musicapp"><li>Music Shuffle Gestures</li></a>
           <a href="discourse"><li>Discourse</li></a>
           <a href="uaa_redesign"><li>UAA redesign</li></a>
-          <a href="solo"><li>Solo</li></a>
+          <a class="active" href="solo"><li>Solo</li></a>
           <li>FFXIV Ethnography</li>
         </ul>
       </div>
       <p>About</p>
      <a href="https://goo.gl/w6Sx5c" target="_blank"><p>Resume</p></a> 
     </div>
-    </div> <!-- Left Nav Bar -->
-
-   <div class="center">
-     
-   
-
-    <div class="row justify-content-center overviews">
-    <div class="col-6 project_info">
+    </div> <!-- Left Nav Bar -->      
+    </div><!--End 1st Column Navbar Bar -->
+    <div class="col-md-9"> <!-- 2nd Column Body -->
+    <div class="row overviews">
+    <div class="col-7 project_info">
       <h3 class="project_headers"> The Problem:</h3>
       <p>Although many tools exist for looking up nearby locations for people to spend their day, few of them take into account the user’s personal social preferences. More specifically, introversion or simply the desire to be left alone in a public space are rarely considered. Those who wish to get out of the house yet also desire some quiet time to themselves are left at a loss.
 
       </p>
       <h3 class="project_headers"> The Solution:</h3>
-      <p> soloSD encourages people to go exploring by themselves and find comfort in doing so. Users can explore areas linked with the nearest safe facilities such as police stations and clinics.
+      <p> Solo encourages people to go exploring by themselves and find comfort in doing so. Users can explore areas linked with the nearest safe facilities such as police stations and clinics.
 
       </p>
       <h3 class="project_headers"> My Role:</h3>
@@ -62,9 +61,9 @@
     </div>
     <div class="col-4 project_overview">
       <h1 class="project_headers">Solo </h1>
-      <img class="project_img" src="../images/banner-autumn.jpg">
+      <img class="project_imgoverview" src="../images/solo_overviewphoto.jpg">
       <h3 class="project_headers"> Overview:</h3>
-      <p>Our users will primarily be the more introverted side of San Diego, yet we recognize that time alone is valuable and applicable to just about anyone. soloSD’s users will be people who need a way to get out of the house, value their individuality and personal time by themselves, and are motivated to discover and explore their new favorite place.</p>
+      <p>Solo will focus more introverted side of San Diego, yet we recognize that time alone is valuable and applicable to just about anyone. soloSD’s users will be people who need a way to get out of the house, value their individuality and personal time by themselves, and are motivated to discover and explore their new favorite place.</p>
     </div>
   </div>
 
@@ -105,34 +104,67 @@
 
    <hr class="project_ruler">
 
-  <div class="project_details">
-    <h3 class="project_headers"> Design Decisions</h3>
-    <h4>Why Mapbox?</h4>
-    <ul>
-      <li>Allows us to customize our map for simplicity</li>
-      <li>Can create Clusters preventing information overload when zoomed out to scale.</li>
-       <h1>[pic of clusters] </h1>
-      <li> Can set map boundaries preventing inappropriate zooming. i.e. the middle of the ocean</li>
-    </ul>
+   <!--  Start Row left_text, right_img -->
+   <h3 class="project_headers"> Design Decisions</h3>
+    <div class="row">
 
-  </div>
+      <div class="col-md">
+        
+        <h4>Why Mapbox?</h4>
+      <ul>
+        <li>Allows us to customize our map for simplicity</li>
+        <li>Can create Clusters preventing information overload when zoomed out to scale.</li>
+        <li> Can set map boundaries preventing inappropriate zooming. i.e. the middle of the ocean</li>
+      </ul>
+      </div>
+      <div class="col-md">
+         <img src="../images/solo_clusters.png">
+      </div>
+    </div>
+   <!-- end Left, right-->
+
+
   
    <hr class="project_ruler">
 
   <div class="project_details">
     <h3 class="project_headers"> UX Testing and Evaluation</h3>
-    <h4> Data placement</h4>
-    <p> We opt for aleft handed bar as testers generally used their left hands to scroll while their right hand to tap the screen. </p>
-    <h1>[ pic of sidebar]</h1>
-    <p> Geogically there are less important places further east of the coastline so markers would rarely appear behind the data box at our set zoom level.</p>
-   
-    <h4>Location Saving</h4>
-    <p> allow for memory offloading in order for users to focus where they would like to go rather than having them just remembering what they selected.</p>
-    <h1> [pic of saving multiple locations]</h1>
-    <h4>Designing for safety </h4>
-    <p>We originally thought users would be sufficient with knowing information about the nearest facilities of aid such as hospitals and police stations leading us to develop only showing the average distances of all facilities. Users wished for contact information more rather than distance, so that if something were to happen they could be put in touch directly rather than still going through the general emergency lines first. Thus, we designed the sidebar to display such information like so: </p>
+    <!--  Start Row left_text, right_img -->
+    <div class="row">
+      <div class="col-md">
+        <h4> Data placement</h4>
+        <p> We opt for a right oriented bar as testers generally used their left hands to scroll while their right hand to tap the screen. </p>
+        <p> Geogically there are less important places further east of the coastline so markers would rarely appear behind the data box at our set zoom level.</p>
+      </div>
+      <div class="col-md">
+         <img height="400px" src="../images/solo_sidebar.png">
+      </div>
+    </div>
+   <!-- end Left, right-->
 
-    <h4>User control principles are a large proponent in our app design in order to enable users freedom as to what they want to display. </h4>
+   <div style="margin-top: 4em" class="row">
+    <div class="col-md">
+      <h4>Location Saving</h4>
+    <p> allow for memory offloading in order for users to focus where they would like to go rather than having them just remembering what they selected.</p>
+    <h4>Designing for safety </h4>
+    <p>We originally thought users would be sufficient with knowing information about the nearest facilities of aid such as hospitals and police stations leading us to develop only showing the average distances of all facilities. Users wished for contact information more rather than distance, so that if something were to happen they could be put in touch directly rather than still going through the general emergency lines first.</p>
+      
+    </div>
+    <div class="col-md">
+      <img height="400px" style="margin-bottom: 4em" src="../images/solo_savedlocations.png">
+      
+    </div>
+     
+   </div>
+
+    
+    
+    
+
+
+    
+    <!--
+    <h4>User control principles are a large proponent in our app design in order to enable users freedom as to what they want to display. </h4> -->
 
     <h4></h4>
 
@@ -141,8 +173,29 @@
   <hr class="project_ruler">
 
 
+  <div class="project_details">
+    <h3 class="project_headers" >Final Thoughts</h3>
+    <p style="margin-bottom: 20vh;">With Solo, we have been working on the solution to helping people find a way to explore places in San Diego without worry. They would not have to worry about interacting with people and they are able to feel safe and secure while enjoying their zip code. Even if you are not alone, you can still explore with friends. The work we have provided though is to allow people who don’t want to socially interact with others to explore different places as much as people who want to go in a group.</p>
 
-</div><!--center -->
+
+  </div>
+
+  <div  class="bottom">
+    
+  </div>      
+      
+    </div> <!-- End 2nd Column Body -->
+
+  </div>
+
+		
+		
+
+
+
+
+
+
 </div><!--Container-->
 
     

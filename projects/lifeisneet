@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../projects.css"> 
+	<title>Imouto</title>
+</head>
+<body>
+	<div class="container">
+
+		<div class="row"> <!-- Start 2 Column-->
+			<div class="col-md-3 first-col"> 
+			    <h2 class="logo" style="margin-bottom: 1.5em">Allan Asis</h2>
+    			<div class="_navbar">
+      				<p class="active">Home</p>
+      				<p class="dropdown_portfolio">Portfolio</p>
+      			<div>
+        		<ul class="works_list">
+          			<a class="active" href="lifeisneet"><li>Life is NEET</li></a>
+    				<a href="musicapp"><li>Music Shuffle Gestures</li></a>
+         			<a href="discourse"><li>Discourse</li></a>
+          			<a href="uaa_redesign"><li>UAA redesign</li></a>
+          			<a href="solo"><li>Solo</li></a>
+          			<li>FFXIV Ethnography</li>
+        		</ul>
+      			</div>
+      			<p>About</p>
+     			<a href="https://goo.gl/w6Sx5c" target="_blank"><p>Resume</p></a> 
+    			</div>
+    		</div> <!-- Left Nav Bar -->     
+			<div" class="col-md-9">
+				<div class=" row overviews"><!--Start Project Overview-->
+					<div class="col-6 project_info">
+      					<h3 class="project_headers"> The Problem:</h3>
+      					<p>The NEET (Not in Education, Employment, or Training) demographic who have withdrawn from society after failing given the expectations of following some career path thinking it would guarantee success. 
+      					</p>
+      					<h3 class="project_headers"> The Solution:</h3>
+      					<p> Life is NEET is prologue demo where we hope to compel players to start parallels in their own lives of improving self-efficacy and able to support themselves on their own.
+      					</p>
+      					<h3 class="project_headers"> My Role:</h3>
+      					<p>Designer</p>
+      					<h3 class="project_headers"> Tools:</h3>
+      					<p>Pen and Paper, RPGMaker MV, HTML/CSS/Javascript
+    				</div>
+    				<div class="col-6 project_overview">
+      					<h1 class="project_headers">Life is NEET </h1>
+      					<img class="project_imgoverview" src="../images/neet_overview.png">
+      					<h3 class="project_headers"> Overview:</h3>
+      					<p>A prince who goes by the name of Levirre Krischeval is exiled from his once luxurious lifestyle because of his differing interests and passions. Thus, he must survive outside of the kingdom by learning skills to become self-sufficient. Partnering with the player, Levirre attempts to find solace from the feeling of worthlessness after losing what was familiar to him.</p>
+    				</div>
+  				
+				</div> <!--End  Project Overview-->
+				<hr class="project_ruler">
+			<!--Insert Project Body-->
+			<div class="embed-responsive embed-responsive-4by3">
+				<iframe scrolling="no" frameborder="0" width="640" height="480" style="border: 0px; overflow: hidden;" class="embed-responsive-item" src="http://snowyace.github.io"></iframe>
+			</div>
+			 <hr class="project_ruler">
+			 <div class="project_details">
+    			<h3 class="project_headers">Design Challenges</h3>
+    			<p>The hardest part of evoking change from the player is figuring out how to present game mechanics along with the narrative. We have our prince</p>
+
+				<p>How does using games as a medium help convey our messages of wanting to inspire others who are in this rut of falling through the cracks of society unable to find a job and sustain themselves independently? It’s one thing to present the narrative passively for the viewer to watch as the story unfolds like film or text, but with a game there’s this active insertion of vicariously projecting themselves to uncover the events under your own volition.</p>	
+
+				<p>Because it is a game, there’s additional expectation for not only for the narrative to be captivating, but how you interact with the world must be meaningful in context of the idea as well. Imagine if we presented the same narrative, but to advance the plot you must complete a series of tetris levels. Sure, tetris is fun to play, but it doesn’t correlate well with the overarching theme of overcoming social withdrawal resulting from being a NEET unless you were to jump a tantamount of logical hoops to make that sort of conclusion. </p>
+
+				<p>In Life is NEET, I'm constantly asking: “Is our gameplay engaging alongside the narrative?” I set up small tasks in hunting food and making fire, but can that really compel players to start parallels in their own lives?</p>
+
+				<p>We hope that In the release of our demo, players identify with Prince Krischeval through similar circumstances of abandonment, which begin to set the stage to strengthen self-efficacy.</p>
+      			
+
+  			</div>
+
+
+
+			</div> <!--End body -->
+
+
+		
+
+		</div> <!-- End 2 column-->
+			
+
+		
+	</div> <!-- End container-->
+
+</body>
+</html>
