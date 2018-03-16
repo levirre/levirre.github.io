@@ -190,9 +190,9 @@ h1,h2,h3,h4{
 }
 
 .project_img{
-	width: 300px;
-	height: 300px;
-	margin-left: 	1em;
+	max-width: 100%;
+	max-height: 100%;
+	
 
 }
 
