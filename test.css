@@ -14,11 +14,12 @@ body{
 	padding: 0;
 	background-image: url('images/home-background/Repeat Grid 5.png');
 	cursor: default;
+	user-select: none;
 
 }
 
 .header{
-	margin-left: 10vw;
+	margin-left: 8vw;
 }
 
 .name{
