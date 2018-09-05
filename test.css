@@ -18,6 +18,37 @@ body{
 
 }
 
+.container{
+	height: 100vh;
+	position: relative;	
+	
+
+
+}
+
+.left{
+	float: 	left;	
+	position: relative;	
+	width: 50%;
+	height: 	100%;
+	
+	
+
+	
+}
+
+.right{
+	float: 	right;	
+	position: 	relative;	
+	width: 50%;
+	height: 	100%;
+
+	
+	
+		
+	
+}
+
 .header{
 	margin-left: 8vw;
 }
@@ -82,4 +113,42 @@ body{
 	padding-top: 11%;
 	 width: 60vw;
     
+}
+
+.project{
+	margin-left: 8vw;
+
+
+	
+	
+	
+
+}
+
+.project > .number{
+	font-family: 'Geo','Helvetica','Sans-Serif';
+	font-size: 30vh;
+	color: white;
+	display: 	inline-block;
+	text-shadow: 	-10px 10px #FF00EC;
+	
+	
+
+	
+
+
+
+}
+
+
+
+.summary{
+	font-family: 'Electrolize','Helvetica','Sans-Serif';
+	font-size: 5vh;
+	display: 	inline-block;	
+	width: 30vw;
+	vertical-align: middle;
+	color: black;
+	text-shadow: none;
+	word-wrap: break-word;
 }
